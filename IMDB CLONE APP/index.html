@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>IMDB Clone App</title>
+    
+    <link rel="shortcut icon" href="imdb.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <nav class="navigation">
+    <div class="title-logo-combo">
+        <div class="website-logo">
+            <a href="index.html"><img height="50px" width="50px" src="IMDB.png" alt=""></a>
+        </div>
+        <div class="website-name">MOVIE UPDATES</div>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="searchInput" class="search-bar" placeholder="Search for a movie...">
+        <div class="search-list" id="search-list">
+            <!-- This is the suggestions box list, inside which all similar movies will be displayed acc. to user entered movie title -->
+        </div>
+    </div>
+    
+    <div id="addToFav">
+        <a href="fav/favPage.html" id="fav">Favorite movies</a>
+    </div>
+   </nav>
+
+   <div></div>
+
+    <!-- Javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
